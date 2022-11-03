@@ -1,0 +1,36 @@
+Title:
+Photo Share App
+
+Application:
+An App that open a user interface where after clicking a button, it takes
+a picture from your webcam and then another button allows you to
+create a link to that image and either copy the link or open the link
+in browser
+
+Frontend:
+
+Screen 1:
+    Camera widget
+    Start (on click) -> Camera
+    Capture (on click) -> Screen2
+
+Screen 2:
+    Image display
+    Create link (on click)
+    Copy link (on click)
+    open link (on click)
+
+Objects:
+
+    Webcam:
+        start()
+        stop()
+        capture()
+
+    FileShare:
+        filepath
+        api
+        share()
+
+
+

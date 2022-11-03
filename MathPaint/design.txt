@@ -1,0 +1,26 @@
+Title : Math Painting
+
+Description:
+Draw squares and rectangles on a blank canvas with given colors and coordinates from the user.
+The program then makes a file to display the image with the given shapes
+
+Objects:
+
+Square:
+    x
+    y
+    side
+    color
+    draw(canvas)
+Rectangle:
+    x
+    y
+    side
+    color
+    draw(canvas)
+Canvas:
+    width
+    height
+    color
+Export:
+    make(image)

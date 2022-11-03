@@ -1,0 +1,22 @@
+Title:
+Calorie Calc
+
+Description:
+
+An app that gets data from the user, user weight, height, age, city, and country
+and then scrapes the temperature of the user's location, and calculates how many calories
+the user needs
+
+Objects:
+
+Temperature:
+    country
+    city
+    get()
+
+Calorie(User):
+    weight,
+    height,
+    age,
+    temperature
+    calculate()

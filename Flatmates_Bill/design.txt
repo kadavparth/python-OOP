@@ -1,0 +1,20 @@
+title:
+Flatmates Bill
+
+Description:
+Splits monthly bill amount based on the number of days each flatmate stayed and returns how much each
+flatmate has to pay. Also returns a pdf
+
+Objects:
+
+Bill:
+    amount
+    period
+Flatmates:
+    name
+    days_in_house
+    pays(bill)
+PdFReport:
+    filename
+    generate(flatmate1, flatmate2, bill)
+
